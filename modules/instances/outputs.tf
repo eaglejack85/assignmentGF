@@ -9,3 +9,8 @@ output autoscaling_group_id {
 output lb_hostname {
   value = aws_lb.my_app_lb.dns_name
 }
+
+
+output "ami_name" {
+  value = data.aws_ami.latest_ami.name
+}

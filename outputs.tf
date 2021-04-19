@@ -25,3 +25,7 @@ output "lb_id" {
 output "lb_hostname" {
   value = module.instances.lb_hostname
 }
+
+output "ami_name" {
+  value = module.instances.ami_name
+}
